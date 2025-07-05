@@ -1,4 +1,4 @@
-# Terraform Block
+/*# Terraform Block
 terraform {
   required_version = ">= 0.15"
   required_providers {
@@ -16,7 +16,8 @@ terraform {
 
 # Provider Block
 provider "azurerm" {
-# features {}          
-}
+# features {}  
+   #alias = "provider2"       
+}*/
 
 
