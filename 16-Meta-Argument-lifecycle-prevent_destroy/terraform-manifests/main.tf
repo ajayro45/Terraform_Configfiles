@@ -19,7 +19,7 @@ resource "azurerm_virtual_network" "testvnet" {
     "envvalue" = "I006"
   }
  /* lifecycle {
-    create_before_destroy = true
+    prevent_destroy = true
   }*/
 }
 
