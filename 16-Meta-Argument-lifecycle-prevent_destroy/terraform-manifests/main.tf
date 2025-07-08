@@ -18,6 +18,9 @@ resource "azurerm_virtual_network" "testvnet" {
     "vnetname" = "testvnet1"
     "envvalue" = "I006"
   }
+ /* lifecycle {
+    create_before_destroy = true
+  }*/
 }
 
 /*resource "azurerm_subnet" "testsubnet" {
