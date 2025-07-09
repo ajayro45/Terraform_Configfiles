@@ -1,7 +1,7 @@
-business_unit          = "it"
-environment            = "stag"
-resoure_group_name     = "rg"
-resoure_group_location = "eastus2"
-virtual_network_name   = "vnet"
-subnet_name            = "subnet"
+business_unit       = "it"
+environment         = "stag"
+resource_group_name = "rg"
+location_name       = "eastus2"
+virtual_network     = "vnet"
+
 
